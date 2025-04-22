@@ -10,7 +10,7 @@ Dataset: [NEU Surface Defect Database on Kaggle](https://www.kaggle.com/datasets
 
 ## 🧠 Model
 
-- Architecture: EfficientNetB0 (pretrained on ImageNet)
+- Architecture: MobileNetV2 (pretrained on ImageNet)
 - Input shape: 200x200 RGB
 - Training accuracy: ~92%
 - Validation accuracy: ~95%
@@ -23,9 +23,9 @@ Dataset: [NEU Surface Defect Database on Kaggle](https://www.kaggle.com/datasets
 
 ## 📁 Project Structure
 
-- `scripts/train_model.py` — training pipeline
+- `src/train_and_evaluate_model.py` — training pipeline
 - `models/` — saved Keras model
-- `notebooks/` — Jupyter notebooks for visualization
+- `scripts/` — organize dataset
 - `requirements.txt` — all dependencies
 - `README.md` — you are here!
 
